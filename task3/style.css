@@ -1,0 +1,75 @@
+body {
+	background-color:rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 31%, rgba(207,151,232,1) 54%, rgba(148,187,233,1) 73%, rgba(207,151,232,1) 80%, rgba(189,152,232,0.7541141456582633) 100%);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.heading {
+	font-family:'Brush Script MT', cursive;
+	margin: 35px auto 20px;
+}
+
+hr {
+	border-top: 2px solid rgb(2, 2, 2);
+	width: 40%;
+	margin-bottom: 55px;
+}
+
+.main {
+	width: 50vw;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: rgba(33, 1, 36, 0.5);
+	color: rgb(14, 13, 13);
+}
+
+label {
+	font-size: 20px;
+}
+
+.btn {
+	width: 200px;
+}
+
+#finalAmount {
+	font-family: 'Lobster', cursive;
+	display: none;
+	margin: 50px auto;
+}
+
+#finalAmount h2 {
+	font-size: 50px;
+}
+
+.finalValue {
+	font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 60%;
+	}
+
+	.main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.heading {
+		font-size: 60px;
+	}
+
+	hr {
+		width: 75%;
+	}
+
+	#finalAmount h2,
+	.finalValue {
+		font-size: 40px;
+	}
+}
